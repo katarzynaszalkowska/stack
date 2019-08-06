@@ -53,7 +53,7 @@
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/katarzynanszalkowska/stack.git"
   },
-  "author": "Katarzyna Szałkowska",
+  "author": "Katarzyna Klimek",
   "license": "ISC",
   "homepage": "https://bitbucket.org/katarzynanszalkowska/stack#readme"
 }
