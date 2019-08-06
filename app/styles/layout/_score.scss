@@ -1,0 +1,32 @@
+.database-wrapper {
+    margin: auto;
+}
+
+.list-score {
+    max-width: 60vh;
+    margin: auto;
+    ul {
+        height: 300px;
+        overflow: auto;
+        @media only screen and (min-width: 550px) {
+            height: 450px;
+        }
+        li {
+            padding: 12px;
+            display: flex;
+            font-size: 4vmin;
+            @media only screen and (min-width: 550px) {
+               font-size: 20px;
+            }
+        }
+    }
+
+    .score {
+        width: 50px;
+    }
+
+    .name {
+        text-align: left;
+        margin-left: 40px;
+    }
+}

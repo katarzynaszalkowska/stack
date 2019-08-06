@@ -1,0 +1,60 @@
+.user {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    text-align: left;
+    padding: 20px 30px;
+    color: $black;
+}
+.login {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    z-index: 4;
+    background: none;
+    width: 72px;
+    height: 70px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    cursor : pointer;
+    color: $white;
+    display: block;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.logout {
+    @extend .login;
+}
+
+.database {
+    @extend .login;
+    left: 30px;
+}
+
+.exit {
+   @extend .login; 
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.database-wrapper {
+    width: 100%;
+    height: 100%;
+    background: rgba($black,.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 20px;
+    text-align: center;
+    z-index: 4;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.hideButtons {
+   display: none;
+}
