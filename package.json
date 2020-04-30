@@ -7,7 +7,7 @@
     "babel-polyfill": "^6.13.0",
     "classnames": "^2.2.5",
     "firebase": "^4.0.0",
-    "jquery": "^2.2.2",
+    "jquery": "^3.5.0",
     "normalize.css": "^4.2.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
